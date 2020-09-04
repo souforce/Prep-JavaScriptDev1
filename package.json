@@ -1,0 +1,32 @@
+{
+  "name": "prep-javascriptdev1",
+  "version": "1.0.0",
+  "description": "Aplicativo criado para o preparativo da certificação JavaScript Developer I",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/souforce/Prep-JavaScriptDev1.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "Certificao",
+    "Salesforce",
+    "NPM",
+    "Node"
+  ],
+  "author": "Fernando Sousa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/souforce/Prep-JavaScriptDev1/issues"
+  },
+  "homepage": "https://github.com/souforce/Prep-JavaScriptDev1#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
