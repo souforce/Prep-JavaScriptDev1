@@ -4,7 +4,8 @@
   "description": "Aplicativo criado para o preparativo da certificação JavaScript Developer I",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "nodemon server.js",
+    "test" : "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,8 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
+    "@types/jest": "^26.0.13",
+    "jest": "^26.4.2",
     "nodemon": "^2.0.4"
   }
 }
